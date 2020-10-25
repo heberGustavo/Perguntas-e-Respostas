@@ -1,0 +1,19 @@
+1. npm init
+2. npm install express --save -> Instalacao do express
+3. npm install ejs --save -> Instalacao de biblioteca grafica (HTML)
+4. Para renderizar os HTML`s 
+    - Obrigatorio estar na pasta 'views'
+    - Por não estar usando html puro é necessario os arquivos ter a extensão '.ejs'
+5. Biblioteca para pegar os dados do formulario -> npm install body-parser --save
+    - Responsavel por traduzir os dados enviados no formulario, em uma estrutura JS para usar no backend
+6. Para trabalhar com Banco de Dados no Node JS -> Sequelize
+    * npm install --save sequelize
+    * npm install --save mysql2 (Para o Sequelize trabalhar com Mysql)
+
+    - Postgre, Maria Db, SqlLite, SqlServer
+    - Faz todo o processo de criacao, manipulacao dentro do Node JS
+    - Nao precisa trabalhar com codigo SQL, consegue utilizar o JavaScript
+7. Criacao da pasta 'database'
+8. Chama a importacao em 'index.js' 
+9. Criacao das Models e importacao em 'index.js'
+
