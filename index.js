@@ -2,6 +2,7 @@ const express = require('express'); //Importacao
 const app = express();
 const bodyParser = require('body-parser');
 
+//Teste
 const connection = require('./database/database');
 const Pergunta = require('./database/Pergunta');
 const Resposta = require('./database/Resposta');
